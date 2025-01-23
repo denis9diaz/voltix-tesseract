@@ -6,7 +6,10 @@ source env/bin/activate
 .\env\Scripts\activate
 
 3. instalar dependencias
-pip install -r requirements.txt
+python install -r requirements.txt
 
 4. run server
 uvicorn main:app --reload
+uvicorn app.main:app --reload --port 8080
+
+5. .../docs

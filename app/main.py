@@ -1,15 +1,3 @@
-from fastapi import FastAPI, File, UploadFile
-from tempfile import NamedTemporaryFile
-from app.services.ocr_service import procesar_pdf
-from app.routers import ocr_router
-
-
-# app = FastAPI()
-
-# @app.get("/")
-# async def root():
-#     return {"message": "Hello World"}
-
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from app.services.ocr_service import procesar_pdf, procesar_imagen
 from tempfile import NamedTemporaryFile
