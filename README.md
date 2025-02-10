@@ -27,3 +27,7 @@
 
 # Run the server
 	fastapi dev main.py
+# Interactive API docs
+	/docs
+# Alternative APi docs
+	/redoc
