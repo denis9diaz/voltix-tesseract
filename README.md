@@ -1,6 +1,6 @@
 
-1. Create and activate a virtual environment and then install FastAPI
-	python -m venv .venv
+# Create and activate a virtual environment
+``python -m venv .venv``
 	
 	
     python: use the program called python
@@ -8,22 +8,21 @@
     venv: use the module called venv that normally comes installed with Python
     .venv: create the virtual environment in the new directory .venv
 
-	source .venv/bin/activate
+# source .venv/bin/activate
 	* Do this every time you start a new terminal session to work on the project
 	* Every time you install the package in that environment, activate the environment again.
 	
-	Check The Virtual Environment is Active:
-	which python
+# Check The Virtual Environment is Active:
+	``which python``
+	
+# upgrade pip
+	``python -m pip install --upgrade pip``
 	
 	
-	python -m pip install --upgrade pip
-	
-	
-Create a .gitignore
-echo "*" > .venv/.gitignore
+# Create a .gitignore
+``echo "*" > .venv/.gitignore``
 
 
 
-
-2. pip install "fastapi[standard]"
-3. Create a main.py
+# Run the server
+``fastapi dev main.py``
