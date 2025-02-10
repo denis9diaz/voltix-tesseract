@@ -1,4 +1,4 @@
-#!/home/angeliks/Documents/github/Denis_voltix/voltix-tesseract/.venv/bin/python3
+#!/home/angeliks/Documents/github/Denis_voltix/voltix-tesseract/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
